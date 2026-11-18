@@ -1993,7 +1993,7 @@ row y 356 windows [(186, 195), (234, 243)]
 row y 357 windows [(424, 433), (472, 481), (504, 513), (520, 529), (914, 923)]
 
 exec
-&quot;C:\\Users\\lilli\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe&quot; -Command &quot;@&#x27;
+&quot;C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe&quot; -Command &quot;@&#x27;
 from PIL import Image
 from collections import defaultdict
 im=Image.open(&#x27;city.png&#x27;).convert(&#x27;RGB&#x27;); p=im.load(); w,h=im.size
@@ -2032,7 +2032,7 @@ for bi,(xmin,xmax) in enumerate(buildings,1):
         print(f&#x27;  x={x}: {bits} = {n} = {ch&quot;&#x27;!r}&#x27;&quot;&#x27;)
         message+=ch
 print(&#x27;Decoded:&#x27;,repr(message))
-&#x27;@ | python -&quot; in C:\Users\lilli\AI-Shared\research\stego-test
+&#x27;@ | python -&quot; in C:\Users\<user>\AI-Shared\research\stego-test
  succeeded in 393ms:
 Detected yellow window cells: 143
 Building 1: top=248, columns=6

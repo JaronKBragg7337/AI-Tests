@@ -1772,7 +1772,7 @@ thehe[00]artbeatobse[00]rvatory neversl[00]eeps
   Then sample every one of the 7×nc sites. This is exactly what I did two runs ago except offsets came from unweighted center voting that tied. Let me use width-weighted voting and finer granularity (0.1), and also verify by requiring the two fully-lit rows to come out fully lit — if not, try next-best offset phase. That self-check makes it bulletproof: rows 1-2 must be all '#'.
 
 • Let me make the decoder fully rigorous: width-weighted lattice fit, plus a built-in self-check that the two fully-lit header rows must decode as all-lit, trying alternate phases otherwise.<stdin>:60: RuntimeWarning: Mean of empty slice
-C:\Users\lilli\scoop\apps\python312\current\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+C:\Users\<user>\scoop\apps\python312\current\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
 B1 (x0=13.5, y0=252.5): '[00][00][00][00][00][00]'
     ......

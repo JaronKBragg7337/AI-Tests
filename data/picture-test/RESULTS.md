@@ -6,3 +6,5 @@
 | Grok Build | "may contain a hidden message" | no | correct + checked for a second message | |
 | Kimi | same | no | correct (own pixel code) | |
 | Codex Luna | same | no | correct | |
+| GPT-6.2 Sol (Codex) | same, fresh empty folder with only the image (11/18) | no | correct, full method (7-bit columns, top to bottom) | ~1 min |
+| GPT-6.2 Astra (Codex) | same, fresh empty folder with only the image (11/18) | no | correct, full method; noted all lowercase, no punctuation | ~1 min |

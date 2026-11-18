@@ -10,8 +10,8 @@ One row per model. Lens = picks for prompts 1-6 each run; rarity = the material 
   - Prompt 4: B x7
   - Prompt 5: E x7
   - Prompt 6: B x7
-- Rarity raw: ? x2, astatine x1
-- Rarity chain: wood x3
+- Rarity raw: ? x3, astatine x3, life x1
+- Rarity chain: wood x7
 
 ## deepseek
 - Lens runs: DFDDDF DFDDFF DFDDEF EFDDDF DFDDFF DFDDEF DFDDFF
@@ -131,8 +131,8 @@ One row per model. Lens = picks for prompts 1-6 each run; rarity = the material 
   - Prompt 4: B x7
   - Prompt 5: E x7
   - Prompt 6: B x6, E x1
-- Rarity raw: antimatter x2, astatine x1
-- Rarity chain: wood x3
+- Rarity raw: antimatter x5, astatine x2
+- Rarity chain: wood x7
 
 ## sonnet
 - Lens runs: CBDDFF ABDDFB CBDDFF CBDDFF DBDBFF DBDDFB CBBDFF
@@ -144,3 +144,14 @@ One row per model. Lens = picks for prompts 1-6 each run; rarity = the material 
   - Prompt 6: F x5, B x2
 - Rarity raw: astatine x7
 - Rarity chain: granite x4, liquid water x3
+
+## terra61
+- Lens runs: AFBBCC AABBCC ABBBEB AEBBCC AEBBCC EFBBCC AFBBCC
+  - Prompt 1: A x6, E x1
+  - Prompt 2: F x3, E x2, A x1, B x1
+  - Prompt 3: B x7
+  - Prompt 4: B x7
+  - Prompt 5: C x6, E x1
+  - Prompt 6: C x6, B x1
+- Rarity raw: ? x2, astatine x1
+- Rarity chain: wood x3
